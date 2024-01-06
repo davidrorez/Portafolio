@@ -22,11 +22,26 @@ box-sizing: border-box;
 }
 
 .second-page {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background-color: #efefef;
-}
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url('img/t3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+
+.third-page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url('img/tb.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
 .navbar a {
   font-size: 20px;
@@ -245,3 +260,4 @@ p {
 .card .content .foot .icon {
     font-size: 12px
 }
+
