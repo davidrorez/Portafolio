@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.main-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.second-page {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #efefef;
+}
+
+.navbar a {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo-text {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.div-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-main {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 17px;
+}
+
+.white-background {
+  background-color: white;
+  background-image: none;
+  background-size: cover; 
+  background-position: center; 
+}
+
+.icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: rgb(183, 183, 183);
+}
+
+/* Cards */
+.container {
+    min-height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+p {
+    margin: 0px
+}
+
+.card {
+    width: 280px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+
+.card .backgroundEffect {
+    bottom: 0;
+    height: 0px;
+    width: 100%
+}
+
+.card:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.card:hover .backgroundEffect {
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #050607;
+    animation: popBackground 0.3s ease-in
+}
+
+@keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%
+    }
+
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%
+    }
+
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%
+    }
+}
+
+.card .pic {
+    position: relative
+}
+
+.card .pic img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover
+}
+
+.card .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 70px;
+    background-color: #050607;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    transition: all ease
+}
+
+.card .date .day {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.card .date .month,
+.card .date .year {
+    font-size: 10px
+}
+
+.card .text-muted {
+    font-size: 12px
+}
+
+.card:hover .text-muted {
+    color: #fff !important
+}
+
+.card .content {
+    padding: 0 20px
+}
+
+.card .content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #050607;
+    border-radius: 25px;
+    font-size: 12px;
+    border: none
+}
+
+.card:hover .content .btn {
+    background: #fff;
+    color: #050607;
+    box-shadow: #0000001a 0px 3px 5px
+}
+
+.card .content .btn .fas {
+    font-size: 10px;
+    padding-left: 5px
+}
+
+.card .content .foot .admin {
+    color: #050607;
+    font-size: 12px
+}
+
+.card:hover .content .foot .admin {
+    color: #fff
+}
+
+.card .content .foot .icon {
+    font-size: 12px
+}

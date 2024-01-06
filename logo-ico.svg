@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1200" height="900" viewBox="0 0 1200 900" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 600 450)" id="03766b0b-93d7-4abb-ab92-7beb3a752eec"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-600" y="-450" rx="0" ry="0" width="1200" height="900" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="c3679c29-86e6-4c36-95cc-5ba4205fb659"  >
+</g>
+<g transform="matrix(10.07 0 0 10.07 82.66 -4.75)"  >
+<g style="" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(1 0 0 1 -66.69 -32.16)"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(254,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-50" y="-50" rx="0" ry="0" width="100" height="100" />
+</g>
+		<g transform="matrix(1 0 0 1 50.81 45.34)"  >
+<rect style="stroke: #00a6c8; stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-57.37999725341797" y="-36.32500076293945" rx="0" ry="0" width="114.75999450683594" height="72.6500015258789" />
+</g>
+		<g transform="matrix(1 0 0 1 57.31 38.84)"  >
+<polyline style="stroke: #00a6c8; stroke-opacity: 0.5; stroke-width: 8; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-55.88,-34.83 55.88,-34.83 55.88,34.83 " />
+</g>
+		<g transform="matrix(1 0 0 1 50.81 45.34)"  >
+<rect style="stroke: none; stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-57.380001068115234" y="-36.32500076293945" rx="0" ry="0" width="114.76000213623047" height="72.6500015258789" />
+</g>
+		<g transform="matrix(1 0 0 1 50.81 45.34)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #00a6c8; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-51.35, 26.32)" d="M 16.77 0 L 3.97 0 L 3.97 -52.65 L 16.38 -52.65 Q 22.82 -52.65 26.42 -50.9 Q 30.03 -49.14 31.56 -45.5 Q 33.09 -41.86 33.09 -36.27 L 33.09 -36.27 L 33.09 -17.03 Q 33.09 -11.31 31.56 -7.51 Q 30.03 -3.71 26.49 -1.85 Q 22.95 0 16.77 0 L 16.77 0 Z M 13.59 -45.83 L 13.59 -6.7 L 16.51 -6.7 Q 19.82 -6.7 21.25 -7.87 Q 22.69 -9.04 23.01 -11.28 Q 23.34 -13.52 23.34 -16.77 L 23.34 -16.77 L 23.34 -36.92 Q 23.34 -40.11 22.88 -42.05 Q 22.43 -44.01 21 -44.91 Q 19.57 -45.83 16.38 -45.83 L 16.38 -45.83 L 13.59 -45.83 Z M 49.79 0 L 40.17 0 L 40.17 -52.65 L 52.78 -52.65 Q 58.11 -52.65 61.78 -51.38 Q 65.45 -50.12 67.37 -47.06 Q 69.29 -44.01 69.29 -38.74 L 69.29 -38.74 Q 69.29 -35.55 68.7 -33.02 Q 68.12 -30.48 66.72 -28.7 Q 65.33 -26.91 62.86 -25.94 L 62.86 -25.94 L 70.2 0 L 60.58 0 L 54.21 -24.12 L 49.79 -24.12 L 49.79 0 Z M 49.79 -46.09 L 49.79 -30.16 L 52.78 -30.16 Q 55.58 -30.16 57.23 -30.97 Q 58.89 -31.79 59.61 -33.57 Q 60.32 -35.36 60.32 -38.16 L 60.32 -38.16 Q 60.32 -42.12 58.86 -44.1 Q 57.39 -46.09 53.3 -46.09 L 53.3 -46.09 L 49.79 -46.09 Z M 98.73 0 L 74.81 0 L 74.81 -6.17 L 88.98 -46.02 L 75.59 -46.02 L 75.59 -52.65 L 98.67 -52.65 L 98.67 -47.71 L 83.98 -6.63 L 98.73 -6.63 L 98.73 0 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>
