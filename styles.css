@@ -107,20 +107,21 @@ box-sizing: border-box;
   color: rgb(183, 183, 183);
 }
 
-/* Cards */
+/* .card and .card-2 */
 .container {
     min-height: 100vh;
     padding: 20px 0;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 p {
-    margin: 0px
+    margin: 0;
 }
 
-.card {
+.card,
+.card-2 {
     width: 280px;
     height: 400px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -129,68 +130,80 @@ p {
     cursor: pointer;
     user-select: none;
     z-index: 10;
-    overflow: hidden
+    overflow: hidden;
 }
 
-.card .backgroundEffect {
+.card-2 {
+    width: 600px;
+    height: 350px;
+    border-radius: 1%;
+}
+
+.card .backgroundEffect,
+.card-2 .backgroundEffect {
     bottom: 0;
-    height: 0px;
-    width: 100%
+    height: 0;
+    width: 100%;
 }
 
-.card:hover {
+.card:hover,
+.card-2:hover {
     color: #fff;
     transform: scale(1.025);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
 }
 
-.card:hover .backgroundEffect {
+.card:hover .backgroundEffect,
+.card-2:hover .backgroundEffect {
     bottom: 0;
     height: 320px;
     width: 100%;
     position: absolute;
     z-index: -1;
     background: #050607;
-    animation: popBackground 0.3s ease-in
+    animation: popBackground 0.3s ease-in;
 }
 
 @keyframes popBackground {
     0% {
         height: 20px;
         border-top-left-radius: 50%;
-        border-top-right-radius: 50%
+        border-top-right-radius: 50%;
     }
 
     50% {
         height: 80px;
         border-top-left-radius: 75%;
-        border-top-right-radius: 75%
+        border-top-right-radius: 75%;
     }
 
     75% {
         height: 160px;
         border-top-left-radius: 85%;
-        border-top-right-radius: 85%
+        border-top-right-radius: 85%;
     }
 
     100% {
         height: 320px;
         border-top-left-radius: 100%;
-        border-top-right-radius: 100%
+        border-top-right-radius: 100%;
     }
 }
 
-.card .pic {
-    position: relative
+.card .pic,
+.card-2 .pic {
+    position: relative;
 }
 
-.card .pic img {
+.card .pic img,
+.card-2 .pic img {
     width: 100%;
     height: 180px;
-    object-fit: cover
+    object-fit: cover;
 }
 
-.card .date {
+.card .date,
+.card-2 .date {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,33 +213,40 @@ p {
     background-color: #050607;
     color: white;
     position: absolute;
-    bottom: 0px;
-    transition: all ease
+    bottom: 0;
+    transition: all ease;
 }
 
-.card .date .day {
+.card .date .day,
+.card-2 .date .day {
     font-size: 14px;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .card .date .month,
-.card .date .year {
-    font-size: 10px
+.card .date .year,
+.card-2 .date .month,
+.card-2 .date .year {
+    font-size: 10px;
 }
 
-.card .text-muted {
-    font-size: 12px
+.card .text-muted,
+.card-2 .text-muted {
+    font-size: 12px;
 }
 
-.card:hover .text-muted {
-    color: #fff !important
+.card:hover .text-muted,
+.card-2:hover .text-muted {
+    color: #fff !important;
 }
 
-.card .content {
-    padding: 0 20px
+.card .content,
+.card-2 .content {
+    padding: 0 20px;
 }
 
-.card .content .btn {
+.card .content .btn,
+.card-2 .content .btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -234,30 +254,46 @@ p {
     background-color: #050607;
     border-radius: 25px;
     font-size: 12px;
-    border: none
+    border: none;
 }
 
-.card:hover .content .btn {
+.card:hover .content .btn,
+.card-2:hover .content .btn {
     background: #fff;
     color: #050607;
-    box-shadow: #0000001a 0px 3px 5px
+    box-shadow: #0000001a 0px 3px 5px;
 }
 
-.card .content .btn .fas {
+.card .content .btn .fas,
+.card-2 .content .btn .fas {
     font-size: 10px;
-    padding-left: 5px
+    padding-left: 5px;
 }
 
-.card .content .foot .admin {
+.card .content .foot .admin,
+.card:hover .content .foot .admin,
+.card-2 .content .foot .admin,
+.card-2:hover .content .foot .admin {
     color: #050607;
-    font-size: 12px
+    font-size: 12px;
 }
 
-.card:hover .content .foot .admin {
-    color: #fff
+.card:hover .content .foot .admin,
+.card-2:hover .content .foot .admin {
+    color: #fff;
 }
 
-.card .content .foot .icon {
-    font-size: 12px
+.card .content .foot .icon,
+.card-2 .content .foot .icon {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .card,
+    .card-2 {
+        width: 280px;
+        height: 400px;
+        max-width: none;
+    }
 }
 
