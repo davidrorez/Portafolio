@@ -26,7 +26,7 @@ box-sizing: border-box;
     padding: 0;
     min-height: 100vh;
     box-sizing: border-box;
-    background-image: url('img/t3.jpg');
+    background-image: url('img/bg2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -37,7 +37,18 @@ box-sizing: border-box;
     padding: 0;
     min-height: 100vh;
     box-sizing: border-box;
-    background-image: url('img/tb.jpg');
+    background-image: url('img/bg3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.fourth-page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url('img/bg4.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
