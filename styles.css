@@ -266,23 +266,27 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px;
+    padding: 8px 15px;
     background-color: #050607;
     border-radius: 25px;
-    font-size: 12px;
+    font-size: 14px;
     border: none;
+    color: #fff;
+    transition: all 0.3s ease;
 }
 
-.card-1:hover .content .btn,
-.card-2:hover .content .btn {
+.card-1 .content .btn:hover,
+.card-2 .content .btn:hover {
     background: #fff;
     color: #050607;
     box-shadow: #0000001a 0px 3px 5px;
+    padding: 9px 16px;
+    font-size: 15px;
 }
 
 .card-1 .content .btn .fas,
 .card-2 .content .btn .fas {
-    font-size: 10px;
+    font-size: 12px;
     padding-left: 5px;
 }
 
@@ -304,6 +308,9 @@ p {
     font-size: 12px;
 }
 
+/* ... Otros estilos ... */
+
+
 @media screen and (max-width: 768px) {
     .card-1,
     .card-2 {
@@ -311,22 +318,16 @@ p {
         height: 400px;
         max-width: none;
     }
-    .row-cols-md-6 > .col {
-        flex: 0 0 33.33333%;
+    .row-cols-md-4 > .col {
+        flex: 0 0 25%;
         max-width: 25%;
       }
+    .skills-page {
+        width: 280px;
+        max-width: none; 
+    }
 }
 
-.icons-container {
-	margin-top: 3rem;
-}
-
-.icons-container img {
-	width: 70px;
-    height: 70px;
-	margin-right: 0.625rem;
-	margin-bottom: 0.75rem;
-}
 
 
 
