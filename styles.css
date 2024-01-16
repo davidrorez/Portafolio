@@ -13,7 +13,7 @@ box-sizing: border-box;
 .main-page {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  min-height: 130vh;
   box-sizing: border-box;
   background-image: url('img/bg.jpg');
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ box-sizing: border-box;
 .second-page {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 130vh;
     box-sizing: border-box;
     background-image: url('img/bg2.jpg');
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ box-sizing: border-box;
 .third-page {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 130vh;
     box-sizing: border-box;
     background-image: url('img/bg3.jpg');
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ box-sizing: border-box;
 .fourth-page {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 130vh;
     box-sizing: border-box;
     background-image: url('img/bg4.jpg');
     background-repeat: no-repeat;
@@ -326,6 +326,21 @@ p {
         width: 280px;
         max-width: none; 
     }
+}
+
+.the-blur {
+    position: fixed;
+    top:0;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 20px;
+    background: rgba(0,0,0,.4);
+    z-index:1010;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
 }
 
 
