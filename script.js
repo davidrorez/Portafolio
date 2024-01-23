@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
   var enButton = document.getElementById('en-btn');
   var esButton = document.getElementById('es-btn');
 
-  // Retrieve the selected language from localStorage
   var storedLanguage = localStorage.getItem('selectedLanguage') || 'en';
   var imagePath = localStorage.getItem('selectedLanguageFlag') || 'img/united-kingdom.png';
 
@@ -15,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
     currentLanguage: storedLanguage,
   });
 
-  // Set the initial language flag
   languageFlag.src = imagePath;
 
   enButton.onclick = function () {
@@ -33,7 +31,14 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   window.addEventListener('beforeunload', function (event) {
-    // Save the language flag before leaving the page
     localStorage.setItem('selectedLanguageFlag', languageFlag.src);
+  });
+});
+
+document.getElementById('scrollUp').addEventListener('click', function(event) {
+  event.preventDefault();
+  window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
   });
 });

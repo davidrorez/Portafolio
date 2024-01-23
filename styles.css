@@ -1,126 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&display=swap');
 
-h1, h2 {
-  font-family: 'Bebas Neue', sans-serif;
+h1,
+h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+p,
+a {
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.main-page {
-  margin: 0;
-  padding: 0;
-  min-height: 130vh;
-  box-sizing: border-box;
-  background-image: url('img/bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.page {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: #070d2b;
+    background: -webkit-linear-gradient(to right, #070d2b, #000312);
+    background: linear-gradient(to right, #070d2b, #000312);
+
 }
 
-.second-page {
-    margin: 0;
-    padding: 0;
-    min-height: 130vh;
-    box-sizing: border-box;
-    background-image: url('img/bg2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}   
-
-.third-page {
-    margin: 0;
-    padding: 0;
-    min-height: 130vh;
-    box-sizing: border-box;
-    background-image: url('img/bg3.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-.fourth-page {
-    margin: 0;
-    padding: 0;
-    min-height: 130vh;
-    box-sizing: border-box;
-    background-image: url('img/bg4.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
 
 .navbar a {
-  font-size: 20px;
-  color: white;
-  font-weight: 500;
-  text-decoration: none;
-  margin-left: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.nav-font {
+    font-family: 'Inconsolata', monospace;
 }
 
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 100px;
-  display: flex;
-  justify-content: space-between;
-  z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
 }
 
 .logo-text {
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .underline {
     text-decoration: underline;
-    text-decoration-color: #00a6c8;
+    text-decoration-color: #005B41
 }
 
 .div-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .h1-main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .p-main {
-  position: absolute;
-  top: 58%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 17px;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 17px;
 }
 
 .white-background {
-  background-color: white;
-  background-image: none;
-  background-size: cover; 
-  background-position: center; 
+    background-color: white;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
 }
 
 .icon {
-  color: white;
-  transition: color 0.3s ease;
+    color: white;
+    transition: color 0.3s ease;
 }
 
 .icon:hover {
-  color: rgb(183, 183, 183);
+    color: rgb(183, 183, 183);
 }
 
 /* .card and .card-2 */
@@ -312,30 +293,33 @@ p {
 
 
 @media screen and (max-width: 768px) {
+
     .card-1,
     .card-2 {
         width: 280px;
         height: 400px;
         max-width: none;
     }
-    .row-cols-md-4 > .col {
+
+    .row-cols-md-4>.col {
         flex: 0 0 25%;
         max-width: 25%;
-      }
+    }
+
     .skills-page {
         width: 280px;
-        max-width: none; 
+        max-width: none;
     }
 }
 
 .the-blur {
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
     min-height: 50px;
     margin-bottom: 20px;
-    background: rgba(0,0,0,.4);
-    z-index:1010;
+    background: rgba(0, 0, 0, .4);
+    z-index: 1010;
     -webkit-filter: blur(20px);
     -moz-filter: blur(20px);
     -o-filter: blur(20px);
@@ -343,6 +327,29 @@ p {
     filter: blur(20px);
 }
 
+.text-nav {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+}
 
+.text-nav:hover {
+    color: rgb(173, 173, 173) !important;
+    transition: all 0.3s ease !important;
+}
 
+.bg-nav {
+    background-color: #060B10;
+}
 
+.bg-items {
+    background-color: #0f0f0f87 !important;
+}
+
+.nav-tranparent {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.text-xs {
+    font-size: 0.80rem;
+  }
