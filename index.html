@@ -1,300 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Web Developer from Alajuela, Costa Rica. Specialized in creating unique applications. Solid experience in Web implementations and digital solutions."
+    />
+    <title>Davidrorez - Web Developer from Alajuela, Costa Rica</title>
+    <link rel="icon" type="image/x-ico" href="img/logo-ico.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Web Developer from Alajuela, Costa Rica. Specialized in creating unique applications. Solid experience in Web implementations and digital solutions." />
-  <title>Davidrorez - Web Developer from Alajuela, Costa Rica</title>
-  <link rel="icon" type="image/x-ico" href="img/logo-ico.ico" />
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav-tranparent">
-      <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#main_nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse mt-3" id="main_nav">
-        <ul class="navbar-nav mx-auto card rounded-pill bg-items nav-font" style="backdrop-filter: blur(10px)">
-          <li class="nav-item">
-            <a data-translatable class="text-nav m-3 mb-1" href="#projects">Projects // Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a data-translatable class="text-nav m-3 mb-1" href="#skills">Skills // Habilidades</a>
-          </li>
-          <li class="nav-item">
-            <a data-translatable class="text-nav m-3 mb-1" href="#contact">Contact // Contacto</a>
-          </li>
-          <ul class="navbar-nav">
-            <div class="dropdown">
-              <a class="dropdown-toggle text-nav m-3 mb-1" role="button" id="dropdownMenu2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <img src="img/united-kingdom.png" alt="United Kingdom Flag" id="current-lang"
-                  style="height: 15px; width: 20px" />
-              </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <button class="dropdown-item text-center" type="button" id="es-btn">
-                  <span id="name">Español
-                    <img src="img/spain.png" alt="Spain Flag" style="height: 15px; width: 20px" />
-                  </span>
-                </button>
-                <button class="dropdown-item text-center" type="button" id="en-btn">
-                  <span id="name" style="margin-right: 3px">English</span>
-                  <img src="img/united-kingdom.png" alt="United Kingdom Flag" style="height: 15px; width: 20px" />
-                </button>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav-tranparent">
+        <button
+          class="navbar-toggler m-2"
+          type="button"
+          data-toggle="collapse"
+          data-target="#main_nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-3" id="main_nav">
+          <ul
+            class="navbar-nav mx-auto card rounded-pill bg-items nav-font"
+            style="backdrop-filter: blur(10px)"
+          >
+            <li class="nav-item">
+              <a data-translatable class="text-nav m-3 mb-1" href="#projects"
+                >Projects // Proyectos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-translatable class="text-nav m-3 mb-1" href="#skills"
+                >Skills // Habilidades</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-translatable class="text-nav m-3 mb-1" href="#contact"
+                >Contact // Contacto</a
+              >
+            </li>
+            <ul class="navbar-nav">
+              <div class="dropdown">
+                <a
+                  class="dropdown-toggle text-nav m-3 mb-1"
+                  role="button"
+                  id="dropdownMenu2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="img/united-kingdom.png"
+                    alt="United Kingdom Flag"
+                    id="current-lang"
+                    style="height: 15px; width: 20px"
+                  />
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button
+                    class="dropdown-item text-center"
+                    type="button"
+                    id="es-btn"
+                  >
+                    <span id="name"
+                      >Español
+                      <img
+                        src="img/spain.png"
+                        alt="Spain Flag"
+                        style="height: 15px; width: 20px"
+                      />
+                    </span>
+                  </button>
+                  <button
+                    class="dropdown-item text-center"
+                    type="button"
+                    id="en-btn"
+                  >
+                    <span id="name" style="margin-right: 3px">English</span>
+                    <img
+                      src="img/united-kingdom.png"
+                      alt="United Kingdom Flag"
+                      style="height: 15px; width: 20px"
+                    />
+                  </button>
+                </div>
               </div>
-            </div>
+            </ul>
           </ul>
-        </ul>
-      </div>
-      <!-- navbar-collapse.// -->
-    </nav>
-  </header>
-  <main>
-    <section class="page" style="height: 96vh;">
-      <div class="container" style="max-width: 650px">
-        <div class="d-flex flex-column align-items-left justify-content-center" style="min-height: 100vh">
-          <h1 data-translatable class="text-white">
-            <span style="font-size: 50px; display: inline-block">Hey, I'm <span
-                class="underline">Davidrorez!</span></span>
-            <span style="font-size: 50px; display: inline-block">¡Hey, soy <span
-                class="underline">Davidrorez!</span></span>
-          </h1>
-          <p data-translatable class="text-left text-white mt-2" style="font-size: 18px">
-            <span>
-              <span style="color: #f6d776">WEB DEVELOPER FROM COSTA RICA.</span>
-              <span style="color: #6da4aa">SPECIALIZED IN CREATING UNIQUE APPLICATIONS.</span>
-              <span style="color: #f5f7f8e4">WITH SOLID EXPERIENCE IN WEB IMPLEMENTATIONS.</span>
-            </span>
-            <span>
-              <span style="color: #f6d776">DESARROLLADOR WEB DE COSTA RICA.</span>
-              <span style="color: #6da4aa">ESPECIALIZADO EN LA CREACIÓN DE APLICACIONES ÚNICAS.</span>
-              <span style="color: #f5f7f8e4">CON UNA SÓLIDA EXPERIENCIA EN IMPLEMENTACIONES WEB.</span>
-            </span>
-          </p>
-          <div class="d-flex flex-row mt-3">
-            <div class="icon" style="margin-right: 10px;">
-              <a type="button" class="btn btn-lg btn-outline-light" href="https://github.com/davidrorez"
-                target="_blank">
-                <ion-icon name="logo-github" style="height: 18px; width: 20px"></ion-icon>
-                Github
-              </a>
-            </div>
-            <div class="icon" style="margin-right: 10px;">
-              <a type="button" class="btn btn-lg btn-outline-light"
-                href="https://www.linkedin.com/in/david-rojas-83428b279?trk=public_profile_browsemap-profile"
-                target="_blank">
-                <ion-icon name="logo-linkedin" style="height: 18px; width: 20px"></ion-icon>
-                LinkedIn
-              </a>
-            </div>
-            <div class="icon" style="margin-right: 10px;">
-              <a type="button" class="btn btn-lg btn-outline-light" href="mailto:dvd.42liga@gmail.com" target="_blank">
-                <ion-icon name="mail" style="height: 18px; width: 20px"></ion-icon>
-                Email
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <section class="page second-page" id="projects">
-      <div class="container" style="max-width: 650px">
-        <div class="d-flex flex-column align-items-left" style="min-height: 100vh">
-          <h2 data-translatable class="d-flex text-white" style="font-size: 40px">
-            <span>My Projects</span>
-            <span>Mis Proyectos</span>
-          </h2>
-          <h3 data-translatable class="d-flex m-0" style="font-size: 25px">
-            <span style="color: #f6d776">Yiyos's Barber Shop - Haircuts with a classic style</span>
-            <span style="color: #f6d776">Barbería Yiyo's - Cortes de cabello con un estilo clásico</span>
-          </h3>
-          <p data-translatable style="color: #6da4aa; font-size: 20px">
-            <span>Website to display all the information about Yiyo's Barber Shop. Created from scratch with React and
-              Bootstrap.</span>
-            <span>Sitio web para mostrar toda la información acerca de la Barbería Yiyo's. Creado desde cero React y
-              Bootstrap.</span>
-          </p>
-          <div class="d-flex">
-            <div class="d-lg-flex align-items-left">
-              <div class="card mb-3 p-2 text-white rounded-pill text-xs"
-                style="background-color: #0031596a; margin-right: 10px;">
-                React
-              </div>
-            </div>
-            <div class="d-lg-flex align-items-left">
-              <div class="card mb-3 p-2 text-white rounded-pill text-xs" style="background-color: #0031596a;">
-                Bootstrap
-              </div>
-            </div>
-          </div>
-          <div class="d-lg-flex align-items-left">
-            <div class="card mb-3">
-              <img src="img/t1.png" class="card-img-top" alt="Yiyo's Barber Shop">
-            </div>
-          </div>
-          <h3 data-translatable class="d-flex m-0 mt-4" style="font-size: 25px">
-            <span style="color: #f6d776">Drink Game - Game for a Party with Friends</span>
-            <span style="color: #f6d776">Drink Game - Juego para fiestas con tus amigos</span>
-          </h3>
-          <p data-translatable style="color: #6da4aa; font-size: 20px">
-            <span>Fun game, easily accessible. Created from scratch with ExpressJs, React, and Bootstrap.</span>
-            <span>Juego divertido, de fácil acceso. Creado desde cero con ExpressJs, React y Bootstrap.</span>
-          </p>
-          <div class="d-flex">
-            <div class="d-lg-flex align-items-left">
-              <div class="card mb-3 p-2 text-white rounded-pill text-xs"
-                style="background-color: #0031596a; margin-right: 10px;">
-                ExpressJs
-              </div>
-            </div>
-            <div class="d-lg-flex align-items-left">
-              <div class="card mb-3 p-2 text-white rounded-pill text-xs"
-                style="background-color: #0031596a; margin-right: 10px;">
-                React
-              </div>
-            </div>
-            <div class="d-lg-flex align-items-left">
-              <div class="card mb-3 p-2 text-white rounded-pill text-xs" style="background-color: #0031596a;">
-                Bootstrap
-              </div>
-            </div>
-          </div>
-          <div class="d-lg-flex align-items-left">
-            <div class="card mb-3">
-              <img src="img/t2.png" class="card-img-top" alt="Drunk Game">
-            </div>
-          </div>
-        </div>
-    </section>
-    <section class="page third-page" id="skills">
-      <div class="container" style="max-width: 570px">
-        <div class="d-flex flex-column align-items-left justify-content-center text-white" style="min-height: 100vh">
-          <div class="skills-page">
-            <h2 data-translatable class="m-0" style="font-size: 40px">
-              My Skills // Mis Habilidades
-            </h2>
-            <p data-translatable style="font-size: 17px">
-              I am familiar and work daily with HTML, CSS, JavaScript,
-              Bootstrap and other modern frameworks. // Estoy familiarizado y
-              trabajo diariamente con HTML, CSS, JavaScript, Bootstrap y otros
-              frameworks modernos.
+        <!-- navbar-collapse.// -->
+      </nav>
+    </header>
+    <main>
+      <section class="page" style="height: 96vh">
+        <div class="container" style="max-width: 650px">
+          <div
+            class="d-flex flex-column align-items-left justify-content-center"
+            style="min-height: 100vh"
+          >
+            <h1 data-translatable class="text-white">
+              <span style="font-size: 50px; display: inline-block"
+                >Hey, I'm <span class="underline">Davidrorez!</span></span
+              >
+              <span style="font-size: 50px; display: inline-block"
+                >¡Hey, soy <span class="underline">Davidrorez!</span></span
+              >
+            </h1>
+            <p
+              data-translatable
+              class="text-left text-white mt-2"
+              style="font-size: 18px"
+            >
+              <span>
+                <span style="color: #f6d776"
+                  >WEB DEVELOPER FROM COSTA RICA.</span
+                >
+                <span style="color: #6da4aa"
+                  >SPECIALIZED IN CREATING UNIQUE APPLICATIONS.</span
+                >
+                <span style="color: #f5f7f8e4"
+                  >WITH SOLID EXPERIENCE IN WEB IMPLEMENTATIONS.</span
+                >
+              </span>
+              <span>
+                <span style="color: #f6d776"
+                  >DESARROLLADOR WEB DE COSTA RICA.</span
+                >
+                <span style="color: #6da4aa"
+                  >ESPECIALIZADO EN LA CREACIÓN DE APLICACIONES ÚNICAS.</span
+                >
+                <span style="color: #f5f7f8e4"
+                  >CON UNA SÓLIDA EXPERIENCIA EN IMPLEMENTACIONES WEB.</span
+                >
+              </span>
             </p>
-            <h2 data-translatable class="m-0" style="font-size: 40px">
-              More about me // Más sobre mi
-            </h2>
-            <p data-translatable style="font-size: 17px">
-              I am a great communicator and I love investing the time
-              necessary to understand the client's problem very well. // Soy
-              un gran comunicador y me encanta invertir el tiempo que sea
-              necesario para entender muy bien el problema del cliente.
-            </p>
-          </div>
-          <div class="row row-cols-1 row-cols-md-4 g-1 mt-2 justify-content-center skills-page">
-            <div class="col mb-2 text-center">
-              <img src="img/html-icon.png" class="card-img-top" style="width: 50px" alt="HTML" />
-            </div>
-            <div class="col mb-2 text-center">
-              <img src="img/css-icon.png" class="card-img-top" style="width: 50px" alt="CSS" />
-            </div>
-            <div class="col mb-2 text-center">
-              <img src="img/js-icon.png" class="card-img-top" style="width: 50px" alt="JavaScript" />
-            </div>
-            <div class="col mb-2 text-center">
-              <img src="img/node-js-icon.png" class="card-img-top" style="width: 50px" alt="Node.js" />
-            </div>
-            <div class="col mb-2 text-center">
-              <img src="img/java-icon.png" class="card-img-top" style="width: 50px" alt="Java" />
-            </div>
-            <div class="col mb-2 text-center">
-              <img src="img/bootstrap-icon.png" class="card-img-top" style="width: 50px" alt="Bootstrap" />
-            </div>
-            <div class="col mb-2 text-center">
-              <img src="img/git-icon.png" class="card-img-top" style="width: 50px" alt="Git" />
-            </div>
-            <div class="col mb-2 text-center">
-              <img src="img/postgres-icon.png" class="card-img-top" style="width: 50px" alt="PostgreSQL" />
+            <div class="d-flex flex-row mt-3">
+              <div class="icon" style="margin-right: 10px">
+                <a
+                  type="button"
+                  class="btn btn-lg btn-outline-light"
+                  href="https://github.com/davidrorez"
+                  target="_blank"
+                >
+                  <ion-icon
+                    name="logo-github"
+                    style="height: 18px; width: 20px"
+                  ></ion-icon>
+                  Github
+                </a>
+              </div>
+              <div class="icon" style="margin-right: 10px">
+                <a
+                  type="button"
+                  class="btn btn-lg btn-outline-light"
+                  href="https://www.linkedin.com/in/david-rojas-83428b279?trk=public_profile_browsemap-profile"
+                  target="_blank"
+                >
+                  <ion-icon
+                    name="logo-linkedin"
+                    style="height: 18px; width: 20px"
+                  ></ion-icon>
+                  LinkedIn
+                </a>
+              </div>
+              <div class="icon" style="margin-right: 10px">
+                <a
+                  type="button"
+                  class="btn btn-lg btn-outline-light"
+                  href="mailto:dvd.42liga@gmail.com"
+                  target="_blank"
+                >
+                  <ion-icon
+                    name="mail"
+                    style="height: 18px; width: 20px"
+                  ></ion-icon>
+                  Email
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="page fourth-page" id="contact">
-      <div class="container">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 100vh">
-          <h2 data-translatable class="d-flex p-3 mb-4 text-white" style="font-size: 40px">
-            Contact me // Contáctame
-          </h2>
-          <div class="d-lg-flex">
-            <div class="card-2 border-0 me-lg-4 mb-lg-0 mb-4">
-              <div class="backgroundEffect"></div>
-              <div class="pic">
-                <img class="" src="img/david-rojas.jpg" alt="David Rojas" />
-                <div class="date">
-                  <span class="day">26</span> <span class="month">June</span>
-                  <span class="year">2019</span>
+      </section>
+      <section class="page" id="projects">
+        <div class="container" style="max-width: 650px">
+          <div
+            class="d-flex flex-column align-items-left"
+            style="min-height: 100vh"
+          >
+            <h2
+              data-translatable
+              class="d-flex text-white"
+              style="font-size: 40px"
+            >
+              <span>My Projects</span>
+              <span>Mis Proyectos</span>
+            </h2>
+            <h3 data-translatable class="d-flex m-0" style="font-size: 25px">
+              <span style="color: #f6d776"
+                >Yiyos's Barber Shop - Haircuts with a classic style</span
+              >
+              <span style="color: #f6d776"
+                >Barbería Yiyo's - Cortes de cabello con un estilo clásico</span
+              >
+            </h3>
+            <p
+              data-translatable
+              style="color: #6da4aa; font-size: 20px; margin-bottom: 0.2cm"
+            >
+              <span
+                >Website to display all the information about Yiyo's Barber
+                Shop. Created from scratch with React and Bootstrap.</span
+              >
+              <span
+                >Sitio web para mostrar toda la información acerca de la
+                Barbería Yiyo's. Creado desde cero React y Bootstrap.</span
+              >
+            </p>
+            <div class="d-flex">
+              <div class="d-lg-flex align-items-left">
+                <div
+                  class="card mb-3 p-2 text-white rounded-pill text-xs"
+                  style="background-color: #0031596a; margin-right: 10px"
+                >
+                  React
                 </div>
               </div>
-              <div class="content">
-                <p class="h-1 mt-4">
-                  Finance And Legal Working Streams Occur Throughout
-                </p>
-                <p class="text-muted mt-3">
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind
-                  texts.
-                </p>
-                <div class="d-flex align-items-center justify-content-center foot">
-                  <a type="button" class="btn btn-outline-light m-1" href="https://github.com/davidrorez"
-                    target="_blank">
-                    <ion-icon name="mail-outline" style="height: 15px; width: 18px"></ion-icon>
-                    Email
-                  </a>
-                  <a type="button" class="btn btn-outline-light m-1" href="https://github.com/davidrorez"
-                    target="_blank">
-                    <ion-icon name="logo-whatsapp" style="height: 15px; width: 18px"></ion-icon>
-                    Whatsapp
-                  </a>
+              <div class="d-lg-flex align-items-left">
+                <div
+                  class="card mb-3 p-2 text-white rounded-pill text-xs"
+                  style="background-color: #0031596a"
+                >
+                  Bootstrap
                 </div>
               </div>
             </div>
+            <div class="d-lg-flex align-items-left">
+              <div class="card-1 rounded-lg" style="margin-bottom: 50px">
+                <img
+                  src="img/yiyos.png"
+                  class="card-img-top"
+                  alt="Yiyo's Barber Shop"
+                />
+              </div>
+            </div>
+            <h3 data-translatable class="d-flex m-0" style="font-size: 25px">
+              <span style="color: #f6d776"
+                >Drink Game - Game for a Party with Friends</span
+              >
+              <span style="color: #f6d776"
+                >Drink Game - Juego para fiestas con tus amigos</span
+              >
+            </h3>
+            <p
+              data-translatable
+              style="color: #6da4aa; font-size: 20px; margin-bottom: 0.2cm"
+            >
+              <span
+                >Fun game, easily accessible. Created from scratch with
+                ExpressJs, React, and Bootstrap.</span
+              >
+              <span
+                >Juego divertido, de fácil acceso. Creado desde cero con
+                ExpressJs, React y Bootstrap.</span
+              >
+            </p>
+            <div class="d-flex">
+              <div class="d-lg-flex align-items-left">
+                <div
+                  class="card mb-3 p-2 text-white rounded-pill text-xs"
+                  style="background-color: #0031596a; margin-right: 10px"
+                >
+                  ExpressJs
+                </div>
+              </div>
+              <div class="d-lg-flex align-items-left">
+                <div
+                  class="card mb-3 p-2 text-white rounded-pill text-xs"
+                  style="background-color: #0031596a; margin-right: 10px"
+                >
+                  React
+                </div>
+              </div>
+              <div class="d-lg-flex align-items-left">
+                <div
+                  class="card mb-3 p-2 text-white rounded-pill text-xs"
+                  style="background-color: #0031596a"
+                >
+                  Bootstrap
+                </div>
+              </div>
+            </div>
+            <div class="d-lg-flex align-items-left">
+              <div class="card-1 rounded-lg mb-3">
+                <img src="img/drunkgame.png" class="card-img-top" alt="Drunk Game" />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div dir="rtl">
-        <a type="button" class="btn text-nav" id="scrollUp" style="display: inline">
-          <ion-icon name="chevron-up-circle-outline" style="height: 35px; width: 35px;"></ion-icon>
-        </a>
-      </div>
-    </section>
-  </main>
-  <footer class="bg-body-tertiary text-center text-lg-start" style="background-color: rgb(84, 84, 84)">
-    <!-- Copyright -->
-    <div class="text-center text-white p-3">© 2020 Copyright</div>
-    <!-- Copyright -->
-  </footer>
-  <script src="/dom-i18n.js"></script>
-  <script src="/script.js"></script>
-</body>
+      </section>
+      <section class="page third-page" id="skills">
+        <div class="container" style="max-width: 650px">
+          <div
+            class="d-flex flex-column align-items-left text-white"
+            style="min-height: 40vh; margin-top: 50px"
+          >
+            <div class="skills-page">
+              <h2 data-translatable class="m-0" style="font-size: 40px">
+                My Skills // Mis Habilidades
+              </h2>
+              <p data-translatable style="font-size: 17px">
+                <span style="color: #f6d776">
+                  I am familiar and work daily with
+                  <span style="color: #6da4aa">HTML, CSS & JavaScript.</span>
+                  In addition to other modern frameworks.
+                </span>
+                <span style="color: #f6d776">
+                  Estoy familiarizado y trabajo diariamente con
+                  <span style="color: #6da4aa">HTML, CSS y JavaScript.</span>
+                  Además de otros frameworks modernos.
+                </span>
+              </p>
+              <h2 data-translatable class="m-0" style="font-size: 40px">
+                More about me // Más sobre mi
+              </h2>
+              <p data-translatable style="font-size: 17px; color: #f6d776">
+                <span style="color: #f6d776">
+                  I am a great communicator and I love
+                  <span style="color: #6da4aa">investing the time</span>
+                  necessary to understand the client's problem very well.
+                </span>
+                <span style="color: #f6d776">
+                  Soy un gran comunicador y me encanta
+                  <span style="color: #6da4aa">invertir el tiempo</span>
+                  que sea necesario para entender muy bien el problema del
+                  cliente.
+                </span>
+              </p>
+            </div>
+            <div class="d-flex">
+              <div
+                class="card p-2 rounded-pill text-xs"
+                style="background-color: #0031596a; margin-right: 10px"
+              >
+                <img
+                  src="img/html-icon.png"
+                  class="card-img-top"
+                  style="width: 30px; height: 29px"
+                  alt="HTML"
+                />
+              </div>
 
+              <div
+                class="card p-2 rounded-pill text-xs"
+                style="background-color: #0031596a; margin-right: 10px"
+              >
+                <img
+                  src="img/css-icon.png"
+                  class="card-img-top"
+                  style="width: 30px; height: 30px"
+                  alt="CSS"
+                />
+              </div>
+
+              <div
+                class="card p-2 rounded-pill text-xs"
+                style="background-color: #0031596a; margin-right: 10px"
+              >
+                <img
+                  src="img/js-icon.png"
+                  class="card-img-top"
+                  style="width: 30px; height: 30px"
+                  alt="JavaScript"
+                />
+              </div>
+
+              <div
+                class="card p-2 rounded-pill text-xs"
+                style="background-color: #0031596a; margin-right: 10px"
+              >
+                <img
+                  src="img/bootstrap-icon.png"
+                  class="card-img-top"
+                  style="width: 30px; height: 30px"
+                  alt="Bootstrap"
+                />
+              </div>
+
+              <div
+                class="card p-2 rounded-pill text-xs"
+                style="background-color: #0031596a; margin-right: 10px"
+              >
+                <img
+                  src="img/git-icon.png"
+                  class="card-img-top"
+                  style="width: 30px; height: 30px"
+                  alt="Git"
+                />
+              </div>
+
+              <!-- Agrega las tecnologías que falten aquí -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page" id="contact">
+        <div class="container" style="max-width: 650px">
+          <div
+            class="d-flex flex-column align-items-left"
+            style="max-height: 100vh"
+          >
+            <h2
+              data-translatable
+              class="d-flex mb-4 text-white"
+              style="font-size: 40px"
+            >
+              Contact me // Contáctame
+            </h2>
+            <div class="d-lg-flex">
+              <div class="card-2 rounded-lg me-lg-4 mb-lg-0 mb-4">
+                <div class="backgroundEffect"></div>
+                <div class="pic">
+                  <img class="" src="img/david-rojas.jpg" alt="David Rojas" />
+                  <div class="date">
+                    <span class="day">26</span> <span class="month">June</span>
+                    <span class="year">2019</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <p class="h-1 mt-4">
+                    Finance And Legal Working Streams Occur Throughout
+                  </p>
+                  <p class="text-muted mt-3">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts.
+                  </p>
+                  <div
+                    class="d-flex align-items-center justify-content-center foot"
+                  >
+                    <a
+                      type="button"
+                      class="btn btn-outline-light m-1"
+                      href="https://github.com/davidrorez"
+                      target="_blank"
+                    >
+                      <ion-icon
+                        name="mail-outline"
+                        style="height: 15px; width: 18px"
+                      ></ion-icon>
+                      Email
+                    </a>
+                    <a
+                      type="button"
+                      class="btn btn-outline-light m-1"
+                      href="https://github.com/davidrorez"
+                      target="_blank"
+                    >
+                      <ion-icon
+                        name="logo-whatsapp"
+                        style="height: 15px; width: 18px"
+                      ></ion-icon>
+                      Whatsapp
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div dir="rtl">
+          <a
+            type="button"
+            class="btn text-nav"
+            id="scrollUp"
+            style="display: inline"
+          >
+            <ion-icon
+              name="chevron-up-circle-outline"
+              style="height: 35px; width: 35px"
+            ></ion-icon>
+          </a>
+        </div>
+        <footer class="bg-body-tertiary text-center text-lg-start">
+          <!-- Copyright -->
+          <div class="text-center text-white p-3">© 2024 Copyright</div>
+          <!-- Copyright -->
+        </footer>
+      </section>
+    </main>
+    <script src="/dom-i18n.js"></script>
+    <script src="/script.js"></script>
+  </body>
 </html>

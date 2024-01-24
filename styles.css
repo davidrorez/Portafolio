@@ -117,7 +117,15 @@ p {
     margin: 0;
 }
 
-.card-1,
+.card-1 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden;
+    border-radius: 1%;
+}
 .card-2 {
     width: 280px;
     height: 400px;
@@ -187,19 +195,16 @@ p {
     }
 }
 
-.card-1 .pic,
 .card-2 .pic {
     position: relative;
 }
 
-.card-1 .pic img,
 .card-2 .pic img {
     width: 100%;
     height: 180px;
     object-fit: cover;
 }
 
-.card-1 .date,
 .card-2 .date {
     display: flex;
     flex-direction: column;
@@ -214,35 +219,28 @@ p {
     transition: all ease;
 }
 
-.card-1 .date .day,
 .card-2 .date .day {
     font-size: 14px;
     font-weight: 600;
 }
 
-.card-1 .date .month,
-.card-1 .date .year,
 .card-2 .date .month,
 .card-2 .date .year {
     font-size: 10px;
 }
 
-.card-1 .text-muted,
 .card-2 .text-muted {
     font-size: 12px;
 }
 
-.card-1:hover .text-muted,
 .card-2:hover .text-muted {
     color: #fff !important;
 }
 
-.card-1 .content,
 .card-2 .content {
     padding: 0 20px;
 }
 
-.card-1 .content .btn,
 .card-2 .content .btn {
     display: flex;
     align-items: center;
@@ -256,7 +254,6 @@ p {
     transition: all 0.3s ease;
 }
 
-.card-1 .content .btn:hover,
 .card-2 .content .btn:hover {
     background: #fff;
     color: #050607;
@@ -265,26 +262,21 @@ p {
     font-size: 15px;
 }
 
-.card-1 .content .btn .fas,
 .card-2 .content .btn .fas {
     font-size: 12px;
     padding-left: 5px;
 }
 
-.card-1 .content .foot .admin,
-.card-1:hover .content .foot .admin,
 .card-2 .content .foot .admin,
 .card-2:hover .content .foot .admin {
     color: #050607;
     font-size: 12px;
 }
 
-.card-1:hover .content .foot .admin,
 .card-2:hover .content .foot .admin {
     color: #fff;
 }
 
-.card-1 .content .foot .icon,
 .card-2 .content .foot .icon {
     font-size: 12px;
 }
@@ -294,7 +286,6 @@ p {
 
 @media screen and (max-width: 768px) {
 
-    .card-1,
     .card-2 {
         width: 280px;
         height: 400px;
