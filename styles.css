@@ -6,6 +6,11 @@ h2 {
     font-family: 'Gilroy-Bold', sans-serif;
 }
 
+p {
+    margin: 0;
+}
+
+
 p,
 a {
     font-family: 'Gilroy-Medium', sans-serif;
@@ -15,21 +20,29 @@ a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-.page {
+.main-bg {
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: #222327;
+    background-image: url(/img/noise.png),url(../img/hero-flair.svg),radial-gradient(42% 47% at 50% 50%, rgba(12, 23, 62, 0) 0%, #0c173e 100%),url(../img/little-grid.svg);
+    background-position: center,center,center,0 30px;
+    background-size: 100px,180%,auto,32px;
+    background-repeat: repeat;
+    color: #fcfdfd;
+}
+
+.custom-section {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: #070d2b;
-    background: -webkit-linear-gradient(to right, #070d2b, #000312);
-    background: linear-gradient(to right, #070d2b, #000312);
 
 }
-
 
 .navbar a {
     font-size: 20px;
@@ -88,13 +101,6 @@ a {
     font-size: 17px;
 }
 
-.white-background {
-    background-color: white;
-    background-image: none;
-    background-size: cover;
-    background-position: center;
-}
-
 .icon {
     color: white;
     transition: color 0.3s ease;
@@ -111,10 +117,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-p {
-    margin: 0;
 }
 
 .card-1 {
@@ -281,8 +283,6 @@ p {
     font-size: 12px;
 }
 
-/* ... Otros estilos ... */
-
 
 @media screen and (max-width: 768px) {
 
@@ -300,6 +300,9 @@ p {
     .skills-page {
         width: 280px;
         max-width: none;
+    }
+    .btn-mobile {
+        width: 280px;
     }
 }
 
@@ -344,3 +347,27 @@ p {
 .text-xs {
     font-size: 0.80rem;
   }
+
+.btn-colour-1 {
+    background-color: #05060768 !important;
+    color: #dedede !important;
+    border-color: #ffff !important;
+}
+  
+.btn-colour-1:hover {
+    color: #fff;
+    transform: scale(1.025) !important;
+    box-shadow: 0 6px 10px 0 rgb(3,31,85,255), 0 6px 30px 0 rgba(53,31,85,255);
+
+}
+
+.btn-colour-1:hover .backgroundEffect {
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #050607;
+    animation: popBackground 0.3s ease-in;
+}
+  
