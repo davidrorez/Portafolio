@@ -1,373 +1,373 @@
-@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&display=swap');
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&display=swap");
 
 h1,
 h2 {
-    font-family: 'Gilroy-Bold', sans-serif;
+  font-family: "Gilroy-Bold", sans-serif;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
-
 
 p,
 a {
-    font-family: 'Gilroy-Medium', sans-serif;
+  font-family: "Gilroy-Medium", sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .main-bg {
-    flex-wrap: wrap;
-    overflow: hidden;
-    background-color: #222327;
-    background-image: url(/img/noise.png),url(../img/hero-flair.svg),radial-gradient(42% 47% at 50% 50%, rgba(12, 23, 62, 0) 0%, #0c173e 100%),url(../img/little-grid.svg);
-    background-position: center,center,center,0 30px;
-    background-size: 100px,180%,auto,32px;
-    background-repeat: repeat;
-    color: #fcfdfd;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: #222327;
+  background-image: url(/img/noise.png), url(../img/hero-flair.svg),
+    radial-gradient(42% 47% at 50% 50%, rgba(12, 23, 62, 0) 0%, #0c173e 100%),
+    url(../img/little-grid.svg);
+  background-position: center, center, center, 0 30px;
+  background-size: 100px, 180%, auto, 32px;
+  background-repeat: repeat;
+  color: #fcfdfd;
 }
 
 .custom-section {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .navbar a {
-    font-size: 20px;
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
 }
 
 .nav-font {
-    font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
 }
 
 .logo-text {
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .underline {
-    text-decoration: underline;
-    text-decoration-color: #005B41
+  text-decoration: underline;
+  text-decoration-color: #005b41;
 }
 
 .div-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .h1-main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .p-main {
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 17px;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 17px;
 }
 
 .icon {
-    color: white;
-    transition: color 0.3s ease;
+  color: white;
+  transition: color 0.3s ease;
 }
 
 .icon:hover {
-    color: rgb(183, 183, 183);
+  color: rgb(183, 183, 183);
 }
 
 /* .card and .card-2 */
 .container {
-    min-height: 100vh;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  min-height: 100vh;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-1 {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    user-select: none;
-    z-index: 10;
-    overflow: hidden;
-    border-radius: 1%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+  overflow: hidden;
+  border-radius: 1%;
 }
 .card-2 {
-    width: 280px;
-    height: 400px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background: #fff;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    user-select: none;
-    z-index: 10;
-    overflow: hidden;
-    border-radius: 1%;
+  width: 280px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #fff;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+  overflow: hidden;
+  border-radius: 1%;
 }
 
 .card-2 {
-    width: 600px;
-    height: 350px;
+  width: 600px;
+  height: 350px;
 }
 
 .card-1 .backgroundEffect,
 .card-2 .backgroundEffect {
-    bottom: 0;
-    height: 0;
-    width: 100%;
+  bottom: 0;
+  height: 0;
+  width: 100%;
 }
 
 .card-1:hover,
 .card-2:hover {
-    color: #fff;
-    transform: scale(1.025);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+  color: #fff;
+  transform: scale(1.025);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
 }
 
 .card-1:hover .backgroundEffect,
 .card-2:hover .backgroundEffect {
-    bottom: 0;
-    height: 320px;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    background: #050607;
-    animation: popBackground 0.3s ease-in;
+  bottom: 0;
+  height: 320px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background: #050607;
+  animation: popBackground 0.3s ease-in;
 }
 
 @keyframes popBackground {
-    0% {
-        height: 20px;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-    }
+  0% {
+    height: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
 
-    50% {
-        height: 80px;
-        border-top-left-radius: 75%;
-        border-top-right-radius: 75%;
-    }
+  50% {
+    height: 80px;
+    border-top-left-radius: 75%;
+    border-top-right-radius: 75%;
+  }
 
-    75% {
-        height: 160px;
-        border-top-left-radius: 85%;
-        border-top-right-radius: 85%;
-    }
+  75% {
+    height: 160px;
+    border-top-left-radius: 85%;
+    border-top-right-radius: 85%;
+  }
 
-    100% {
-        height: 320px;
-        border-top-left-radius: 100%;
-        border-top-right-radius: 100%;
-    }
+  100% {
+    height: 320px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+  }
 }
 
 .card-2 .pic {
-    position: relative;
+  position: relative;
 }
 
 .card-2 .pic img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 
 .card-2 .date {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 70px;
-    background-color: #050607;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    transition: all ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 70px;
+  background-color: #050607;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  transition: all ease;
 }
 
 .card-2 .date .day {
-    font-size: 14px;
-    font-weight: 600;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .card-2 .date .month,
 .card-2 .date .year {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .card-2 .text-muted {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .card-2:hover .text-muted {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .card-2 .content {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .card-2 .content .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 15px;
-    background-color: #050607;
-    border-radius: 25px;
-    font-size: 14px;
-    border: none;
-    color: #fff;
-    transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+  background-color: #050607;
+  border-radius: 25px;
+  font-size: 14px;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
 }
 
 .card-2 .content .btn:hover {
-    background: #fff;
-    color: #050607;
-    box-shadow: #0000001a 0px 3px 5px;
-    padding: 9px 16px;
-    font-size: 15px;
+  background: #fff;
+  color: #050607;
+  box-shadow: #0000001a 0px 3px 5px;
+  padding: 9px 16px;
+  font-size: 15px;
 }
 
 .card-2 .content .btn .fas {
-    font-size: 12px;
-    padding-left: 5px;
+  font-size: 12px;
+  padding-left: 5px;
 }
 
 .card-2 .content .foot .admin,
 .card-2:hover .content .foot .admin {
-    color: #050607;
-    font-size: 12px;
+  color: #050607;
+  font-size: 12px;
 }
 
 .card-2:hover .content .foot .admin {
-    color: #fff;
+  color: #fff;
 }
 
 .card-2 .content .foot .icon {
-    font-size: 12px;
+  font-size: 12px;
 }
-
 
 @media screen and (max-width: 768px) {
+  .card-2 {
+    width: 280px;
+    height: 400px;
+    max-width: none;
+  }
 
-    .card-2 {
-        width: 280px;
-        height: 400px;
-        max-width: none;
-    }
+  .row-cols-md-4 > .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
 
-    .row-cols-md-4>.col {
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
+  .skills-page {
+    width: 280px;
+    max-width: none;
+  }
 
-    .skills-page {
-        width: 280px;
-        max-width: none;
-    }
-    .btn-mobile {
-        width: 280px;
-    }
-}
+  .nav-tranparent {
+    background-color: #0f0f0f87 !important;
+    backdrop-filter: blur(10px);
+  }
 
-.the-blur {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    min-height: 50px;
-    margin-bottom: 20px;
-    background: rgba(0, 0, 0, .4);
-    z-index: 1010;
-    -webkit-filter: blur(20px);
-    -moz-filter: blur(20px);
-    -o-filter: blur(20px);
-    -ms-filter: blur(20px);
-    filter: blur(20px);
+  .bg-items {
+    background-color: transparent !important;
+    border-radius: 0rem !important;
+    border: 0px !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
 }
 
 .text-nav {
-    color: rgb(255, 255, 255) !important;
-    text-decoration: none;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
 }
 
 .text-nav:hover {
-    color: rgb(173, 173, 173) !important;
-    transition: all 0.3s ease !important;
-}
-
-.bg-nav {
-    background-color: #060B10;
+  color: rgb(173, 173, 173) !important;
+  transition: all 0.3s ease;
 }
 
 .bg-items {
-    background-color: #0f0f0f87 !important;
+  background-color: #05060768;
+  color: #dedede;
+  padding: 15px;
+  text-decoration: none;
+  border: 0.1px solid #dedede5b;
+  font-size: 16px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 10px 0 rgb(3, 31, 85, 255),
+    0 6px 30px 0 rgba(53, 31, 85, 255);
 }
 
 .nav-tranparent {
-    background-color: transparent !important;
-    box-shadow: none;
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .text-xs {
-    font-size: 0.80rem;
-  }
+  font-size: 0.8rem;
+}
 
 .btn-colour-1 {
-    background-color: #05060768 !important;
-    color: #dedede !important;
-    border-color: #ffff !important;
+  background-color: #05060768;
+  color: #dedede;
+  padding: 15px;
+  text-decoration: none;
+  border: 0.1px solid #dedede5b;
+  font-size: 16px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-  
+
 .btn-colour-1:hover {
-    color: #fff;
-    transform: scale(1.025) !important;
-    box-shadow: 0 6px 10px 0 rgb(3,31,85,255), 0 6px 30px 0 rgba(53,31,85,255);
-
+  color: #fff;
+  transform: scale(1.025);
+  box-shadow: 0 6px 10px 0 rgb(3, 31, 85, 255),
+    0 6px 30px 0 rgba(53, 31, 85, 255);
 }
 
-.btn-colour-1:hover .backgroundEffect {
-    bottom: 0;
-    height: 320px;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    background: #050607;
-    animation: popBackground 0.3s ease-in;
+.navbar-toggler {
+  border: 0.1px solid #dedede5b;
+  box-shadow: none !important;
 }
-  
